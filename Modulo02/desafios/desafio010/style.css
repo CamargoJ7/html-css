@@ -51,7 +51,7 @@ header > h1 {
 }
 
 header > p {
-  margin-top: 40px;
+
   text-align: center;
 }
 
@@ -73,9 +73,21 @@ main {
   background-color: white;
   padding: 20px 0 5px 0;
   max-width: 1000px;
-  min-width: 100px;
+  min-width: 300px;
   margin: auto;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.342);
+}
+
+.video iframe {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+#bugdroid {
+  max-width: 300px;
 }
 
 .titulos-texto-principal {
