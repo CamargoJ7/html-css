@@ -1,0 +1,69 @@
+div {
+  text-align: left;
+  width: 300px;
+  border: 1px solid black;
+  background-color: rgb(192, 247, 247);
+}
+
+div .titulo-menu {
+  text-align: center;
+}
+
+.atendimento {
+  list-style-type: none;
+}
+
+.sub-menu-atendimento {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.atendimento:hover > .sub-menu-atendimento {
+  display: block;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.item-atendimento:hover {
+  background-color: rgb(144, 214, 214);
+}
+
+.exames {
+  list-style-type: none;
+}
+
+.sub-menu-exames {
+  display: none;
+}
+
+.exames:hover > .sub-menu-exames {
+  display: block;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.item-exames:hover {
+  background-color: rgb(144, 214, 214);
+}
+
+.cirurgias {
+  list-style-type: none;
+}
+
+.sub-menu-cirurgias {
+  display: none;
+}
+
+.cirurgias:hover > .sub-menu-cirurgias {
+  display: block;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.item-cirurgias:hover {
+  background-color: rgb(144, 214, 214);
+}
