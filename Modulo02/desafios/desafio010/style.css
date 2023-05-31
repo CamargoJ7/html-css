@@ -26,7 +26,7 @@
 }
 
 body {
-  background-color: #84e1ad;
+  background-color: black;
 }
 
 header {
@@ -51,7 +51,6 @@ header > h1 {
 }
 
 header > p {
-
   text-align: center;
 }
 
